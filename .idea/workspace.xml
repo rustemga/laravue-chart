@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c960d266-7e08-41f2-aadd-28acd617f165" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/AjaxComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/AriclesItemComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/ChartComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/Loader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/UserListItemComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StartController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/PropComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/PropComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/TestComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/TestComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="c960d266-7e08-41f2-aadd-28acd617f165" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +151,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604318530251</updated>
-      <workItem from="1604318531316" duration="23460000" />
+      <workItem from="1604318531316" duration="23847000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1604387209352</created>
@@ -175,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604387209353</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Vue Chart">
+      <created>1604409723498</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604409723498</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +175,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Vue Chart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vue Chart" />
   </component>
   <component name="WindowStateProjectService">
     <state x="407" y="294" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604402279429">
@@ -194,6 +187,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="370" y="247" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1280.74.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1604325791777" />
+    <state x="518" y="390" key="Github.ShareDialog" timestamp="1604409763688">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="518" y="390" key="Github.ShareDialog/1280.74.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1604409763688" />
     <state width="1237" height="263" key="GridCell.Tab.0.bottom" timestamp="1604319832567">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
