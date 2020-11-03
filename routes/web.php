@@ -18,6 +18,8 @@ use Illuminate\Support\Facades\Route;
 //    return view('welcome');
 //});
 Route::get('/', [StartController::class, 'index'])->name('start');
+Route::get('/get-json', [StartController::class, 'getJson'])->name('getJson');
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+

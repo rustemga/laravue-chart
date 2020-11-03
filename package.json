@@ -24,6 +24,8 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "tailwindcss": "^1.9.6"
+        "chart.js": "^2.9.4",
+        "tailwindcss": "^1.9.6",
+        "vue-chartjs": "^3.5.1"
     }
 }

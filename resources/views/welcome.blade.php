@@ -27,8 +27,9 @@
             @endif
 
                 <div id="app">
-                    <test-component></test-component>
+                    <test-component v-bind:articles = '{{json_encode($articles)}}'></test-component>
                     <prop-component v-bind:users ='{{json_encode($users)}}'></prop-component>
+                    <ajax-component></ajax-component>
                 </div>
         </div>
         <script src="{{ asset('js/app.js') }}" defer></script>
