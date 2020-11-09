@@ -23,6 +23,8 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 Vue.component('test-component', require('./components/TestComponent.vue').default);
 Vue.component('prop-component', require('./components/PropComponent.vue').default);
 Vue.component('ajax-component', require('./components/AjaxComponent.vue').default);
+Vue.component('grafic-component', require('./components/GraficCompoent.vue').default);
+Vue.component('grafic-pie-component', require('./components/GraficPieComponent').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

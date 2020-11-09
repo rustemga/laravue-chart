@@ -29,7 +29,10 @@
                 <div id="app">
                     <test-component v-bind:articles = '{{json_encode($articles)}}'></test-component>
                     <prop-component v-bind:users ='{{json_encode($users)}}'></prop-component>
+                    <grafic-component></grafic-component>
+                    <grafic-pie-component></grafic-pie-component>
                     <ajax-component></ajax-component>
+
                 </div>
         </div>
         <script src="{{ asset('js/app.js') }}" defer></script>
