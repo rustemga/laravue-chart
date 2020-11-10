@@ -20,14 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c960d266-7e08-41f2-aadd-28acd617f165" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/GraficCompoent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/GraficPieComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/PieChart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Events/NewEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/SocketComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravue.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/ChartComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/LineChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/LineChart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -151,18 +157,22 @@
       <path value="$PROJECT_DIR$/vendor/brick/math" />
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/predis/predis" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jjXZVHYQ76O6wZkQNADcRwAsA2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chatVue" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm\PhpStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -182,7 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604318530251</updated>
       <workItem from="1604318531316" duration="23948000" />
-      <workItem from="1604900679438" duration="12655000" />
+      <workItem from="1604900679438" duration="24725000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1604387209352</created>
@@ -205,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604409836650</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Достроил графики.">
+      <created>1604931192756</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604931192756</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,9 +240,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit" />
     <MESSAGE value="Vue Chart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vue Chart" />
+    <MESSAGE value="Достроил графики." />
+    <option name="LAST_COMMIT_MESSAGE" value="Достроил графики." />
   </component>
   <component name="WindowStateProjectService">
     <state x="407" y="294" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604402279429">
@@ -236,6 +255,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="370" y="247" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1280.74.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1604325791777" />
+    <state x="420" y="247" key="FileChooserDialogImpl" timestamp="1604988149995">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="420" y="247" key="FileChooserDialogImpl/1280.74.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1604988149995" />
     <state x="518" y="390" key="Github.ShareDialog" timestamp="1604409763688">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -304,13 +327,13 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1237" height="325" key="GridCell.Tab.3.right/1280.74.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1604409869098" />
-    <state x="232" y="225" key="Vcs.Push.Dialog.v2" timestamp="1604409839170">
+    <state x="232" y="225" key="Vcs.Push.Dialog.v2" timestamp="1604931302858">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="225" key="Vcs.Push.Dialog.v2/1280.74.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1604409839170" />
-    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1604926734072">
+    <state x="232" y="225" key="Vcs.Push.Dialog.v2/1280.74.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1604931302858" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1605005222391">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/1280.74.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1604926734072" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/1280.74.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1605005222391" />
   </component>
 </project>

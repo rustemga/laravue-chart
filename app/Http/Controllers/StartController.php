@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Events\NewEvent;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -31,5 +32,26 @@ class StartController extends Controller
                 'data' => $articlesUserId,
             ])
         ];
+    }
+
+    public function newEvent(Request $request){
+        $result = [
+            'labels' => ['март', 'апрель', 'май', 'июнь'],
+            'datasets' => array([
+                'label' => 'Продажи',
+                'backgroundColor' => '#E9967A',
+                'data' => [15000, 5000, 10000, 30000],
+            ])
+        ];
+        if ($request->has('label')){
+            $result['labels'][] = $request->input('label');
+            $result['datasets'][0]['data'][] = (integer)$request->input('sale');
+            if($request->has('realtime')){
+                if(filter_var($request->input('realtime'), FILTER_VALIDATE_BOOLEAN)){
+                    event(new NewEvent($result));//значение $result будет присвоено переменной $data в методе __constract в классе newEvent
+                }
+            }
+        }
+        return $result;
     }
 }

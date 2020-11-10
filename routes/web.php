@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [StartController::class, 'index'])->name('start');
 Route::get('/get-json', [StartController::class, 'getJson'])->name('getJson');
 Route::get('/get-json-for-chart', [StartController::class, 'chartData'])->name('getJsonForChart');
+Route::get('/get-socket-chart', [StartController::class, 'newEvent'])->name('socketChart');
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

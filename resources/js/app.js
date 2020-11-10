@@ -25,6 +25,7 @@ Vue.component('prop-component', require('./components/PropComponent.vue').defaul
 Vue.component('ajax-component', require('./components/AjaxComponent.vue').default);
 Vue.component('grafic-component', require('./components/GraficCompoent.vue').default);
 Vue.component('grafic-pie-component', require('./components/GraficPieComponent').default);
+Vue.component('socket-component', require('./components/SocketComponent').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

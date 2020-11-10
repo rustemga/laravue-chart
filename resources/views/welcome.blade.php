@@ -32,7 +32,7 @@
                     <grafic-component></grafic-component>
                     <grafic-pie-component></grafic-pie-component>
                     <ajax-component></ajax-component>
-
+                    <socket-component></socket-component>
                 </div>
         </div>
         <script src="{{ asset('js/app.js') }}" defer></script>
